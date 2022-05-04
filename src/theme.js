@@ -10,4 +10,15 @@ export const theme = createTheme({
             main: "#f50057",
         },
     },
+    typography: {
+        fontFamily: [
+            'Poppins',
+            '"Helvetica Neue"',
+            'Arial',
+            'sans-serif',
+            '"Apple Color Emoji"',
+            '"Segoe UI Emoji"',
+            '"Segoe UI Symbol"',
+        ].join(','),
+    },
 });
